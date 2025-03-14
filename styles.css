@@ -59,7 +59,6 @@ h1{
 .bo1{
     box-sizing: border-box;
     margin:auto;
-    text-align: center;
     padding-top: 50px;
     background: url('Espacio.jpeg') right / cover fixed no-repeat;
 }
@@ -91,9 +90,9 @@ form{
     border-radius:10px;
     max-width:500px;
     margin:auto;
-    margin-top:20px;
+    margin-top:10px;
 }
-input,textarea{
+input,textarea,select{
     min-width:100%;
     width:100%;
     box-sizing:border-box;
@@ -103,11 +102,31 @@ input,textarea{
     border-bottom-left-radius: 5px;
 }
 .form_input{
-    margin-top: 20px;;
+    margin-top: 5px;;
 }
 textarea{
     resize:vertical;
     min-height:50px;
     max-height:200px;
     font-family: sans-serif;
+}
+label{
+    font-size: 20px;
+    color:white;
+    line-height:2;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+option{
+    background: rgb(0, 110, 255);
+    color:aqua;
+}
+legend{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    font-size:20px;
+    margin:1px 0;
+}
+fieldset{
+    margin: 20px 0;
 }
