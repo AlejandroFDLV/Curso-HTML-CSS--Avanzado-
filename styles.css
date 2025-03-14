@@ -1,0 +1,113 @@
+/* index.html */
+@font-face{
+    font-family:"Anton";
+    src:url("Anton-Regular.ttf");
+}
+.bo{
+    margin:0;
+    background: url('Globos.jpg') right / cover fixed no-repeat;
+}
+h1{
+    box-sizing:border-box;
+    background-color:white;
+    width:100%;
+    box-shadow: 0 0 100px 0 #000a;
+    text-align:center;
+    font-family: Anton, Arial, Helvetica, sans-serif;
+    letter-spacing: 10px;
+    padding:25px;
+    border-radius:0 0 20px 20px;
+    margin:0;
+}
+.IAH{
+    box-sizing:border-box;
+    padding:25px;
+    border-radius:3px;
+    background-color: #0006;
+    color:white;
+    width:40%;
+    margin:80px 0 0 5%;
+}
+.IAH2{
+    box-sizing:border-box;
+    padding:20px;
+    border-radius:3px;
+    background-color: #0006;
+    color:white;
+    width:40%;
+    margin:55px 0 0 55%;
+}
+.bloque{
+    width:100%;
+    background-color: #fff;
+    height: 80px;
+    margin:80px 0 50px 0;
+}
+.bot1{
+    box-sizing: border-box;
+    background-color:rgb(0, 162, 255);
+    color:white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding:20px;
+    border-radius:5px;
+    text-decoration: dashed;
+    font-size:30px;
+    margin: 0 0 0 80px;
+}
+
+/* Enlace 1 */
+.bo1{
+    box-sizing: border-box;
+    margin:auto;
+    text-align: center;
+    padding-top: 50px;
+    background: url('Espacio.jpeg') right / cover fixed no-repeat;
+}
+.b1e1{
+    box-sizing:border-box;
+    padding:20px;
+    border-radius:5px;
+    color:rgb(0, 0, 0);
+    background-color: aqua;
+    text-decoration: dashed;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size:22px;
+    text-align:center;
+}
+.Formulario{
+    box-sizing: border-box;
+    margin:90px 0 0 0px;
+    background:white;
+    width:100%;
+    text-align:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 36px;
+}
+form{
+    box-sizing: border-box;
+    padding:10px;
+    background: #fff5;
+    border-radius:10px;
+    max-width:500px;
+    margin:auto;
+    margin-top:20px;
+}
+input,textarea{
+    min-width:100%;
+    width:100%;
+    box-sizing:border-box;
+    border:none;
+    border-bottom:3px solid black;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.form_input{
+    margin-top: 20px;;
+}
+textarea{
+    resize:vertical;
+    min-height:50px;
+    max-height:200px;
+    font-family: sans-serif;
+}
