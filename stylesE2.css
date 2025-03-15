@@ -1,0 +1,68 @@
+/* Enlace 2 */
+.bde2{
+    background: rgb(36, 36, 36);
+    margin:0;
+}
+details{
+    background-color:transparent;
+    border:1px solid, gray;
+    padding:5px;
+    border-radius: 6px;
+    border-bottom: none;
+    width:95%;
+    margin:auto;
+    margin-top: 30px;
+    color:white;
+}
+summary{
+    background-color: transparent;
+    border-bottom:1px solid gray;
+    padding:6px;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+details[open]{
+    border:1px solid, gray;
+    font-weight:bold;
+}
+ul{
+    font-weight:100;
+}
+h2{
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+}
+form{
+    box-sizing: border-box;
+    background:rgb(50, 50, 50);
+    border-radius:6px;
+    margin:0;
+    width:60%;
+    margin:auto;
+    padding:20px;
+    max-width: 60%;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.356) ;
+}
+input{
+    box-sizing: border-box;
+    background-color: rgb(83, 83, 83);
+    width:90%;
+    padding:10px;
+    text-align:center;
+    margin:auto;
+}
+.form_input{
+    padding:5px;
+}
+legend{
+    color:white;
+    font-weight:bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+}
+fieldset{
+    border-color:rgb(163, 163, 163);
+    border-radius:5px;
+    margin:auto;
+}
