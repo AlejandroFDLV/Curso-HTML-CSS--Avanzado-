@@ -16,8 +16,19 @@ table{
 }
 video{
     max-width:50%;
+    border-radius:5px;
+    margin:auto;
+}
+.vidcent{
+    text-align:center;
     margin-top:20px;
     margin-bottom:20px;
-    margin:auto;
-    text-align: center;
+}
+.k{
+    margin:20px;
+}
+p{
+    width:100vw;
+    height:100vh;
+    font-size:30px;
 }
