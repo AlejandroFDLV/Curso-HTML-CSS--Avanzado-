@@ -1,6 +1,13 @@
 td,th{
     border:1px solid gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius:3px;
+}
+td{
+    color:rgb(77, 77, 77);
 }
 table{
-    width:100%
+    width:100%;
+    border: 2px solid rgb(73, 73, 73);
+    padding:2px;
 }
