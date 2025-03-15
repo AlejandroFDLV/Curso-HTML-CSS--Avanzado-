@@ -74,3 +74,11 @@ a{
 .contM{
 text-align:center;
 }
+
+/* TYC Desc */
+.centrarTYC{
+    text-align:center;
+}
+body{
+    background-color: rgb(0, 255, 213);
+}
