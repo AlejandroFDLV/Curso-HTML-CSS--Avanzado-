@@ -27,7 +27,7 @@ details[open]{
 }
 ol{
     font-weight:100;
-    font-size:22px;
+    font-size:30px;
 }
 h2{
     color:white;
@@ -66,4 +66,11 @@ fieldset{
     border-color:rgb(163, 163, 163);
     border-radius:5px;
     margin:auto;
+}
+a{
+    text-decoration:none;
+    color:aqua;
+}
+.contM{
+text-align:center;
 }
