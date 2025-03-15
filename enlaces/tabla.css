@@ -10,4 +10,6 @@ table{
     width:100%;
     border: 2px solid rgb(73, 73, 73);
     padding:2px;
+    margin:auto;
+    max-width:600px;
 }
