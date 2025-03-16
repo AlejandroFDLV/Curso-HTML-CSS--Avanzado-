@@ -1,0 +1,17 @@
+img[src$="jpg"]{
+    width:80%;
+}
+img[src$="png"]{
+    width:50%;
+}
+ul li{
+    background:rgba(255, 0, 0, 0.548);
+    width:200px;
+}
+ul strong{
+    color:blue;
+    font-size: large;
+}
+h1 + p{
+    color:blue;
+}
