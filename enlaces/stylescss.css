@@ -15,3 +15,18 @@ ul strong{
 h1 + p{
     color:blue;
 }
+#azul{
+    color:aqua
+}
+#T3{
+    color:rgb(255, 0, 157);
+}
+h3{
+    color:rgb(255, 238, 0);
+}
+#azul p{
+    color:rgb(0, 81, 255);
+}
+h4{
+    color:blueviolet !important;
+}
