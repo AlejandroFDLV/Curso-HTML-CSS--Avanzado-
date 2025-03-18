@@ -91,3 +91,13 @@ input::placeholder{
 li::marker{
     color:transparent;
 }
+li::before{
+    content:'Antes ';
+    color:black;
+    font-size:50px;
+}
+li::after{
+    content:'Después ';
+    color:black;
+    font-size:50px;
+}
