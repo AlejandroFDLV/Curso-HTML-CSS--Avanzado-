@@ -41,7 +41,8 @@ h3{
 #azul p{
     color:rgb(0, 81, 255);
 }
-#azul p::first-line{
+#azul p::first-line,::selection{
+    background-color: #256;
     color:rgb(0, 217, 255);
 }
 h4{
@@ -79,4 +80,14 @@ h1::first-letter{
     color:rgb(89, 0, 255);
     font-size:90px;
     letter-spacing: -10px;
+}
+h1::selection{
+    background-color: #256;
+}
+input::placeholder{
+    background: rgb(92, 27, 27);
+    color:goldenrod;
+}
+li::marker{
+    color:transparent;
 }
