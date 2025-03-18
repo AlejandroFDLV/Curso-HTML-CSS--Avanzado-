@@ -4,6 +4,16 @@ img[src$="jpg"]{
 img[src$="png"]{
     width:50%;
 }
+ul:active{
+    color:white;
+    background:red;
+}
+ul li:first-child{
+    color:greenyellow;
+}
+li:last-child{
+    color:aquamarine;
+}
 ul li{
     background:rgba(255, 0, 0, 0.548);
     width:200px;
@@ -11,6 +21,10 @@ ul li{
 ul strong{
     color:blue;
     font-size: large;
+}
+strong:hover{
+    background:#eee;
+    color:black;
 }
 h1 + p{
     color:blue;
@@ -29,4 +43,20 @@ h3{
 }
 h4{
     color:blueviolet !important;
+}
+li:nth-child(2){
+    color: rgb(0, 255, 34);
+}
+li:nth-child(2n){
+    background:#eee;
+}
+ol li:first-child{
+    background: #256;
+    color:white;
+}
+ol li:not(.not){
+    background-color: #F00;
+}  
+input[type="checkbox"]:checked{
+    margin:0 200px 0 20px;
 }
