@@ -60,3 +60,20 @@ ol li:not(.not){
 input[type="checkbox"]:checked{
     margin:0 200px 0 20px;
 }
+.email:valid{
+    color:rgb(28, 121, 0);
+}
+.email:invalid{
+    color:red;
+}
+label:has(+.in2:invalid),.in2:invalid{
+    color:#F00;
+}
+label:has(+.in2:valid){
+    color:rgb(0, 255, 0);
+}
+h1::first-letter{
+    color:rgb(89, 0, 255);
+    font-size:90px;
+    letter-spacing: -10px;
+}
