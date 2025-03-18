@@ -41,6 +41,9 @@ h3{
 #azul p{
     color:rgb(0, 81, 255);
 }
+#azul p::first-line{
+    color:rgb(0, 217, 255);
+}
 h4{
     color:blueviolet !important;
 }
